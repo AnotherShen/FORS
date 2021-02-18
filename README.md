@@ -1,6 +1,10 @@
 # FORS - Feeds of Random Stuff
+A cyber 'threat feed' for your TV.
+
 Is your CIRT/SOC/Centre of Cyber Security missing a bit of pizazz? 
+
 Do you often have the big wigs and brass walk in and wonder if you actually are doing anything? 
+
 Are you on the hook for promotional photos and need to show something 'cybery'?
 
 Feeds of Random Sh.. Stuff is for you. 
@@ -8,7 +12,7 @@ Feeds of Random Sh.. Stuff is for you.
 * International Clocks
 * RSS Cyber Feed
 
-Yes it literrally means nothing and we all know this but they don't.
+Yes it literrally means nothing and we all know it.
 
 ## Installation
 ### Install MagicMirror^2
