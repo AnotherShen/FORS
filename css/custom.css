@@ -1,0 +1,12 @@
+.worldtime {
+  display:flex;
+  flex-direction:row;
+}
+
+.world{
+  width:100%;
+  min-width: 140px;
+  margin-right: 15px;
+}
+
+
