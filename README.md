@@ -55,3 +55,6 @@ crontab -e
 * Additional page with a better newfeed containing multimedia
 * Panic button to bring up FORS if something else *cough* sports *cough* is playing
 * OzBargain feed for cracking tech deals
+
+## Credits 
+FORS is essentially a preconfigured [MagicMirror](https://magicmirror.builders/) project utilising some [3rd party modules](https://github.com/MichMich/MagicMirror/wiki/3rd-Party-Modules). Planned features will come in the form of new modules.
