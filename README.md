@@ -27,11 +27,12 @@ git clone https://github.com/0xShen/FORS
 cp -r MagicMirror/* FORS/ && rm -rf MagicMirror
 cd FORS
 npm install
+chmod +x start.sh
 ```
 
 ### Start FORS
 ```
-npm run start
+./start.sh
 ```
 
 ### Stop FORS
