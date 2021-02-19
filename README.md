@@ -57,4 +57,4 @@ crontab -e
 * OzBargain feed for cracking tech deals
 
 ## Credits 
-FORS is essentially a preconfigured [MagicMirror](https://magicmirror.builders/) project utilising some [3rd party modules](https://github.com/MichMich/MagicMirror/wiki/3rd-Party-Modules). Planned features will come in the form of new modules.
+FORS is essentially a preconfigured [MagicMirror](https://magicmirror.builders/) project utilising some [3rd party modules](https://github.com/MichMich/MagicMirror/wiki/3rd-Party-Modules). Planned features will come in the form of custom modules.
