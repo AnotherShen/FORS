@@ -10,21 +10,33 @@ Feeds of Random Sh.. Stuff is for you.
 * International Clocks
 * RSS Cyber Feed
 
-Yes it literrally means nothing and we all know it.
+Yes it literally means nothing and we all know it.
 
 ## Installation
 ### Install MagicMirror^2
 ```
+sudo apt update && sudo apt install curl git
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt install -y nodejs
 git clone https://github.com/MichMich/MagicMirror
-cd MagicMirror/
-npm install
 ```
 
 ### Install FORS Modules
 ```
-Edit after upload
+git clone https://github.com/0xShen/FORS
+cp -r MagicMirror/* FORS/ && rm -rf MagicMirror
+cd FORS
+npm install
+```
+
+### Start FORS
+```
+npm run start
+```
+
+### Stop FORS
+```
+Ctrl+Q
 ```
 
 ## Versions
@@ -34,3 +46,4 @@ Edit after upload
 * Custom Pew Pew map able to ingest tap data or netflow captures
 * Additional page with a better newfeed containing multimedia
 * Panic button to bring up FORS if something else *cough* sports *cough* is playing
+* OzBargain feed for cracking tech deals
