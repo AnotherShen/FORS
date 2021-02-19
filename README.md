@@ -40,6 +40,12 @@ chmod +x start.sh
 Ctrl+Q
 ```
 
+### Start FORS on Boot
+```
+crontab -e
+@reboot /path/to/start.sh
+```
+
 ## Versions
 210219 - Proof of concept
 
