@@ -50,8 +50,8 @@ crontab -e
 210219 - Proof of concept
 
 ## Planned Features
+* Fix RSS feed clipping into worldclocks
 * Custom Pew Pew map able to ingest tap data or netflow captures
 * Additional page with a better newfeed containing multimedia
 * Panic button to bring up FORS if something else *cough* sports *cough* is playing
 * OzBargain feed for cracking tech deals
-* Fix RSS feed clipping international 
