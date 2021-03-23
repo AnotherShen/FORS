@@ -15,7 +15,7 @@ Yes it literally means nothing and we all know it.
 ## Installation
 ### Install MagicMirror^2
 ```
-sudo apt update && sudo apt install curl git
+sudo apt update && sudo apt install curl git npm
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt install -y nodejs
 git clone https://github.com/MichMich/MagicMirror
