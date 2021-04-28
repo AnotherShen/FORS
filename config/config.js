@@ -59,14 +59,14 @@ var config = {
 				// See 'Configuration options' for more information.
 					url: ["https://threatmap.checkpoint.com/"],  // as many URLs you want or you can just ["ENTER IN URL"] if single URL.
 					updateInterval: 0.5 * 60 * 1000000, // rotate URLs every 30 seconds
-					width: "2000", // width of iframe
-					height: "800", // height of iframe
+					width: "1920", // width of iframe
+					height: "700", // height of iframe
 					frameWidth: "100%" // width of embedded iframe, height is beeing calculated by aspect ratio of iframe
 			}
 		},
 		{
 			module: 'MMM-Worldclock',
-			position: 'bottom_left', // This can be any of the regions, best results in top_left or top_right regions
+			position: 'bottom_bar', // This can be any of the regions, best results in top_left or top_right regions
 			config: {
 				timeFormat: 'HH:mm', //defined in moment.js format()
 				dateFormat: 'DD MMM YY',
@@ -100,6 +100,7 @@ var config = {
 			module: "newsfeed",
 			position: "bottom_right",
 			config: {
+				wrapDescription: "true",
 				feeds: [
 					{
 						title: "Fortinet Threat Research",
