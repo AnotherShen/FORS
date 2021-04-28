@@ -102,13 +102,6 @@ var config = {
 			config: {
 				wrapDescription: "true",
 				feeds: [
-	                {
-	                    title: "The Hacker News",
-	                    url: "https://feeds.feedburner.com/TheHackersNews",
-	                    encoding: "UTF-8" //ISO-8859-1
-	                },
-	                {
-						
 					{
 						title: "Fortinet Threat Research",
 						url: "https://feeds.feedburner.com/fortinet/blog/threat-research",
