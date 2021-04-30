@@ -12,6 +12,8 @@ Feeds of Random Sh.. Stuff is for you.
 
 Yes it literally means nothing and we all know it.
 
+![image](https://user-images.githubusercontent.com/9160174/116641905-d3558b80-a9ac-11eb-80aa-990707215183.png)
+
 ## Installation
 ### Install MagicMirror^2
 ```
