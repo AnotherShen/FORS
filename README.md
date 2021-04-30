@@ -48,9 +48,9 @@ crontab -e
 
 ## Versions
 210219 - Proof of concept
+210430 - Fixed RSS Feed clipping by limiting it to half the screen.
 
 ## Planned Features
-* Fix RSS feed clipping into worldclocks
 * Custom Pew Pew map able to ingest tap data or netflow captures
 * Additional page with a better newfeed containing multimedia
 * Panic button to bring up FORS if something else *cough* sports *cough* is playing
