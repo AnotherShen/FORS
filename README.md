@@ -48,8 +48,12 @@ crontab -e
 @reboot /path/to/start.sh
 ```
 
+### Configure GUI
+If the GUI scale is out of whack change the iframe dimensions in config/config.js.
+
 ## Versions
 210219 - Proof of concept
+
 210430 - Fixed RSS Feed clipping by limiting it to half the screen.
 
 ## Planned Features
