@@ -42,10 +42,11 @@ chmod +x start.sh
 Ctrl+Q
 ```
 
-### Start FORS on Boot
+### Start FORS on login and restart every 6 hours
 ```
 crontab -e
-@reboot /path/to/start.sh
+@reboot sleep 10; cd /home/user/Desktop/FORS; ./start.sh
+0 */6 * * * cd /home/user/Desktop/FORS; ./restart.sh
 ```
 
 ### Configure GUI
