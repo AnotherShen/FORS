@@ -42,7 +42,8 @@ chmod +x start.sh
 Ctrl+Q
 ```
 
-### Start FORS on login and restart every 6 hours
+### Autostart & Restart
+Checkpoint Threat Feed often times out after long durations. This should prevent it by restarting every 6 hours.
 ```
 crontab -e
 @reboot sleep 10; cd /home/user/Desktop/FORS; ./start.sh
@@ -56,6 +57,8 @@ If the GUI scale is out of whack change the iframe dimensions in config/config.j
 210219 - Proof of concept
 
 210430 - Fixed RSS Feed clipping by limiting it to half the screen.
+
+210713 - Added auto start and restart guide & scripts.
 
 ## Planned Features
 * Custom Pew Pew map able to ingest tap data or netflow captures
