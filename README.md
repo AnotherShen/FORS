@@ -34,6 +34,7 @@ chmod +x start.sh
 
 ### Start FORS
 ```
+cd FORS
 ./start.sh
 ```
 
